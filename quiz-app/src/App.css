@@ -40,3 +40,48 @@
 .read-the-docs {
   color: #888;
 }
+
+
+
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  /* background-color: #f0f0ff; */
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #f6f0ff, #b8e4f2);
+}
+
+.quiz-start, .question-screen, .report-screen {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.start-btn, .next-btn {
+  background-color: #ff4a4a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 10px 0;
+}

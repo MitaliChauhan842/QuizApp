@@ -1,0 +1,29 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "text": "What is the capital of France?",
+        "options": [
+          { "id": "a", "text": "Paris" },
+          { "id": "b", "text": "London" },
+          { "id": "c", "text": "Rome" },
+          { "id": "d", "text": "Berlin" }
+        ],
+        "correctAnswer": ["a"],
+        "type": "single"
+      },
+      {
+        "id": 2,
+        "text": "Which of the following are programming languages?",
+        "options": [
+          { "id": "a", "text": "Python" },
+          { "id": "b", "text": "English" },
+          { "id": "c", "text": "JavaScript" },
+          { "id": "d", "text": "Spanish" }
+        ],
+        "correctAnswer": ["a", "c"],
+        "type": "multi"
+      }
+    ]
+  }
+  
