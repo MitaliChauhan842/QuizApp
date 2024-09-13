@@ -1,20 +1,24 @@
+import PropTypes from "prop-types";
 import QuizIcon from "../../assets/quizicon.svg";
-import '../QuizApp.css';
+// styles
+import "../QuizApp.css";
 
-// eslint-disable-next-line react/prop-types
 const QuizStart = ({ handleClickStart }) => {
-return(
+  return (
     <div className="container">
-        <h1>Upraised</h1>
-         <div className="circle">
-        <img
-        src={QuizIcon}
-        alt="QUIZ" width="50" height="50"
-        />
-        </div>
-        <button className="start-button" onClick={handleClickStart}>Start Quiz</button>
+      <h1>Upraised</h1>
+      <div className="tag">
+        <img src={QuizIcon} alt="QUIZ" width="100" height="100" />
+      </div>
+      <button className="start-button" onClick={handleClickStart}>
+        Start Quiz
+      </button>
     </div>
-)
+  );
+};
+
+QuizStart.propTypes = {
+  handleClickStart: PropTypes.func.isRequired,
 };
 
 export default QuizStart;

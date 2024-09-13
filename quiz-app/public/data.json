@@ -1,29 +1,101 @@
 {
-    "questions": [
-      {
-        "id": 1,
-        "text": "What is the capital of France?",
-        "options": [
-          { "id": "a", "text": "Paris" },
-          { "id": "b", "text": "London" },
-          { "id": "c", "text": "Rome" },
-          { "id": "d", "text": "Berlin" }
-        ],
-        "correctAnswer": ["a"],
-        "type": "single"
-      },
-      {
-        "id": 2,
-        "text": "Which of the following are programming languages?",
-        "options": [
-          { "id": "a", "text": "Python" },
-          { "id": "b", "text": "English" },
-          { "id": "c", "text": "JavaScript" },
-          { "id": "d", "text": "Spanish" }
-        ],
-        "correctAnswer": ["a", "c"],
-        "type": "multi"
-      }
-    ]
-  }
-  
+  "questions": [
+    {
+      "id": 1,
+      "text": "Which planet is known as the Red Planet?",
+      "options": [
+        { "id": "a", "text": "Mars" },
+        { "id": "b", "text": "Venus" },
+        { "id": "c", "text": "Jupiter" },
+        { "id": "d", "text": "Saturn" }
+      ],
+      "correctAnswer": ["a"],
+      "type": "single"
+    },
+    {
+      "id": 2,
+      "text": "Which of the following are programming languages?",
+      "options": [
+        { "id": "a", "text": "Python" },
+        { "id": "b", "text": "English" },
+        { "id": "c", "text": "JavaScript" },
+        { "id": "d", "text": "Spanish" }
+      ],
+      "correctAnswer": ["a", "c"],
+      "type": "multi"
+    },
+    {
+      "id": 3,
+      "text": "What is the largest planet in our solar system?",
+      "options": [
+        { "id": "a", "text": "Earth" },
+        { "id": "b", "text": "Jupiter" },
+        { "id": "c", "text": "Saturn" },
+        { "id": "d", "text": "Neptune" }
+      ],
+      "correctAnswer": ["b"],
+      "type": "single"
+    },
+    {
+      "id": 4,
+      "text": "Select all prime numbers from the following list:",
+      "options": [
+        { "id": "a", "text": "2" },
+        { "id": "b", "text": "4" },
+        { "id": "c", "text": "7" },
+        { "id": "d", "text": "9" }
+      ],
+      "correctAnswer": ["a", "c"],
+      "type": "multi"
+    },
+    {
+      "id": 5,
+      "text": "Identify the correct chemical formula for water.",
+      "options": [
+        { "id": "a", "text": "H2O" },
+        { "id": "b", "text": "CO2" },
+        { "id": "c", "text": "NaCl" },
+        { "id": "d", "text": "O2" }
+      ],
+      "correctAnswer": ["a"],
+      "type": "single"
+    },
+    {
+      "id": 6,
+      "text": "Which of these is an image of a famous landmark?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eiffel Tower"
+        },
+        {
+          "id": "b",
+          "text": "Mona Lisa"
+        },
+        {
+          "id": "c",
+          "text": "Great Wall of China"
+        },
+        {
+          "id": "d",
+          "text": "Statue of Liberty"
+        }
+      ],
+      "correctAnswer": ["a", "c", "d"],
+      "type": "multi"
+    },
+    {
+      "id": 3,
+      "text": "Identify the programming language shown in the image below:",
+      "image": "https://fastly.picsum.photos/id/1/200/300.jpg?hmac=jH5bDkLr6Tgy3oAg5khKCHeunZMHq0ehBZr6vGifPLY",
+      "options": [
+        { "id": "a", "text": "Python" },
+        { "id": "b", "text": "Ruby" },
+        { "id": "c", "text": "JavaScript" },
+        { "id": "d", "text": "Java" }
+      ],
+      "correctAnswer": ["a"],
+      "type": "single"
+    }
+  ]
+}
